@@ -29,7 +29,6 @@ The Network Visualizer project provides a way to visualize network flows using G
 The project uses the GeoLiteCity-data submodule for IP geolocation. Initialize and update the submodule using the following commands:
 
 ```bash
-
 git submodule init
 git submodule update
 ```
@@ -38,7 +37,6 @@ git submodule update
 Make sure to install the required Python packages. You can use pip for this:
 
 ```bash
-
     pip install -r requirements.txt
 ```
 ## Usage
@@ -52,7 +50,6 @@ Use Wireshark to capture network traffic and save the capture file as tcpdump.pc
 Run the net-vis.py script with your IP address as an argument. Replace your_ip_address with your actual IP address.
 
 ```bash
-   
     python net-vis.py your_ip_address
 ```
 
@@ -65,7 +62,6 @@ The script will process the tcpdump.pcap file and generate a network_visualizati
 ## Example
 
 ```bash
-
 python net-vis.py 192.168.1.1
 ```
 
