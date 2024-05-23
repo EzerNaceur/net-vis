@@ -1,0 +1,3 @@
+[submodule "GeoLiteCity-data"]
+	path = GeoLiteCity-data
+	url = https://github.com/mbcc2006/GeoLiteCity-data.git
